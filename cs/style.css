@@ -21,15 +21,7 @@ body{
 }
 
 .nav-item .nav-link {
-    color: var(--bs-primary-color);
-}
-
-.nav-item .nav-link.active{
-    color: var(--bs-primary-color);
-}
-
-.nav-pills{
-    gap: 5px;
+    color: var(--body-color) !important;
 }
 
 h1, h2, h3, h4{
@@ -53,4 +45,10 @@ h1, h2, h3, h4{
 
 .btn-download-resume{
     background: var(--bs-primary-color);
+}
+
+
+header{
+    color: var(--body-color) !important;
+    background-color: var(--bs-primary-color);
 }
