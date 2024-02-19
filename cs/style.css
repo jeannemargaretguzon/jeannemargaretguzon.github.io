@@ -1,0 +1,56 @@
+:root{
+    --bs-primary-color: #40A2E3;
+    --bs-primary-color-rgb: rgba(64,162,227);
+    --bs-second-color: #0d6efd;
+    --bs-second-color-rgb: rgba(13,110,253);
+    
+    --text-color:#02000D;   
+    --body-color:#F5F5F5;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text-color);
+    background-color:var(--body-color) !important;
+}
+
+.nav-item .nav-link {
+    color: var(--bs-primary-color);
+}
+
+.nav-item .nav-link.active{
+    color: var(--bs-primary-color);
+}
+
+.nav-pills{
+    gap: 5px;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--bs-primary-color) !important;
+}
+
+/**HEADING**/
+
+#profile{
+    border-radius: 20px;
+    border: 2px solid var(--bs-primary-color);
+}
+
+.btn-social{
+    font-size: 25px;
+    padding: 5px;
+    align-items: center ;
+    color: var(--bs-primary-color);
+}
+
+.btn-download-resume{
+    background: var(--bs-primary-color);
+}
