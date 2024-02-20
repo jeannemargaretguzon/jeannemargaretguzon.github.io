@@ -1,3 +1,10 @@
+
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Your CSS rules go here */
+
 :root{
     --bs-primary-color: #40A2E3;
     --bs-primary-color-rgb: rgba(64,162,227);
@@ -15,7 +22,7 @@
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: var(--text-color);
     background-color:var(--body-color) !important;
 }
@@ -25,16 +32,23 @@ body{
 }
 
 h1, h2, h3, h4{
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Space Mono", monospace;
     color: var(--bs-primary-color) !important;
 }
 
-/**HEADING**/
-
-#profile{
-    border-radius: 20px;
-    border: 2px solid var(--bs-primary-color);
+h1, h2{
+    font-weight: 900 !important;
 }
+
+h3, h4{
+    font-weight: 700 !important;
+}
+
+h5, h6{
+    font-weight: 400 !important;
+}
+
+/**HEADING**/
 
 .btn-social{
     font-size: 25px;
@@ -51,4 +65,9 @@ h1, h2, h3, h4{
 header{
     color: var(--body-color) !important;
     background-color: var(--bs-primary-color);
+}
+
+.skill{
+    box-shadow: rgba(80, 120, 160);
+    background-color: white;
 }

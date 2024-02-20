@@ -14,36 +14,45 @@
     crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-    rel="stylesheet">
-
 </html>
 
 <header>
-    <div class="container d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" >
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <h1 class="fs-4 text-white"><b>jmguzon.</b></h1>
+    <div class="container d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="contact.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+            <h1 class="fs-4 text-white pe-5 pe-lg-0"><b>jmguzon.</b></h1>
         </a>
 
-        <ul class="nav nav-underline flex-md-row">
+        <ul class="nav nav-underline">
             <li class="nav-item"><a href="/index.html" class="nav-link active" aria-current="page">Home</a></li>
             <li class="nav-item"><a href="/about.html" class="nav-link">About Me</a></li>
-            <li class="nav-item"><a href="/project.html" class="nav-link">Projects</a></li>
-            <li class="nav-item"><a href="/contact.html" class="nav-link">Contact Me</a></li>
+            <li class="nav-item"><a href="/project.html" class="nav-link">My Projects</a></li>
+            <li class="nav-item"><a id="contact-link" href="/contact.html" class="nav-link">Get in Touch</a></li>
         </ul>
     </div>
 </header>
 
 <div class="container py-5">
     <div class="row align-items-center">
-        <div class="col-md-8">
-            <h6 class="text-body-emphasis text-dark">HELLO I'M</h6>
-            <h1><b style="color: var(--bs-primary-color); font-size: 75px;"><i>JEANNE </br>MARGARET</i></b></h1>
-            <p>A UI/UX Design Intern with a Passion for Data Visualization</p>
-            <div class="d-grid d-sm-flex gap-3">
+        <!-- Profile Image Column -->
+        <div class="col-md-5 order-md-last d-flex justify-content-md-end justify-content-center">
+            <img src="/media/Profile.svg" class="d-block img-fluid w-100 mb-3 mb-md-0" style="max-width: 300px;"
+                alt="Profile Image">
+        </div>
+
+        <!-- Text Content Column -->
+        <div class="col-md-7 order-md-first text-center text-md-start">
+            <!-- Heading -->
+            <h6 class="text-body-emphasis text-dark ">Hello! I'm</h6>
+            <h1 class="fw-bold text-body-emphasis lh-1 mb-3 mb-lg-4 display-1 display-lg-4"
+                style="color: var(--bs-second-color) !important;">Jeanne Margaret</h1>
+
+            <!-- Description -->
+            <p>Aspiring UI/UX and Graphics Designer | BSIT Undergraduate | Proficient in HTML, CSS, Figma| Eager to
+                apply theoretical knowledge in a practical setting to contribute to meaningful projects and gain
+                hands-on experience.</p>
+
+            <!-- Social Media Links and Download Button -->
+            <div class="d-grid d-sm-flex gap-3 justify-content-center justify-content-md-start">
                 <div class="d-inline-flex flex-wrap gap-2 mb-lg-5 mb-2">
                     <a href="https://www.facebook.com/jeanmargaguzon/" class="text-center">
                         <i class="btn-social bi bi-facebook"></i>
@@ -59,14 +68,11 @@
                     </a>
                 </div>
                 <div>
-                    <button class="btn btn-download-resume btn-primary rounded-pill px-3">
+                    <button id="download-resume" class="btn btn-download-resume btn-primary rounded-1 px-3">
                         <i class="bi bi-file-earmark-arrow-down-fill pe-2"></i>View my resume
                     </button>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4">
-            <img src="/media/Profile.svg" class="d-block mx-lg-auto img-fluid">
         </div>
     </div>
 </div>
@@ -78,36 +84,42 @@
         </div>
 
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a href="#"><i class="btn-social bi bi-facebook"></i></a></li>
-            <li class="ms-3"><a href="#">
+            <li class="ms-3"><a href="https://www.facebook.com/jeanmargaguzon/"><i class="btn-social bi bi-facebook"></i></a></li>
+            <li class="ms-3"><a href="mailto:jeanne.guzon@gmail.com">
                     <i class="btn-social bi bi-envelope-fill"></i>
                 </a></li>
-            <li class="ms-3"> <a href="#">
+            <li class="ms-3"> <a href="https://github.com/jeannemargaretguzon">
                     <i class="btn-social bi bi-github"></i>
                 </a></li>
-            <li class="ms-3"> <a href="#">
+            <li class="ms-3"> <a href="https://www.linkedin.com/in/jmguzon/">
                     <i class="btn-social bi bi-linkedin"></i>
                 </a></li>
-
-            <li>
-                <a href="https://www.facebook.com/jeanmargaguzon/" class="text-center">
-                    <i class="btn-social bi bi-facebook"></i>
-                </a>
-            </li>
-            <li>
-                <a href="mailto:jeanne.guzon@gmail.com" class="text-center">
-                    <i class="btn-social bi bi-envelope-fill"></i>
-                </a>
-            </li>
-
-            <li><a href="https://github.com/jeannemargaretguzon" class="text-center">
-                    <i class="btn-social bi bi-github"></i>
-                </a></li>
-            <li>
-                <a href="https://www.linkedin.com/in/jmguzon/" class="text-center">
-                    <i class="btn-social bi bi-linkedin"></i>
-                </a>
-            </li>
         </ul>
     </footer>
 </div>
+
+<!--SCRIPT FOR DOWNLOAD FILE RESUME-->
+<script>
+    document.getElementById('download-resume').addEventListener('click', function() {
+        var resumeUrl = '/media/Resume.pdf';
+        
+        // Create a temporary anchor element
+        var downloadLink = document.createElement('a');
+        downloadLink.href = resumeUrl;
+        downloadLink.download = 'Jeanne_Margaret_Guzon_Resume.pdf';
+        downloadLink.target = '_blank'; // Open in a new tab
+        downloadLink.style.display = 'none'; // Hide the link
+        
+        // Append the anchor element to the body
+        document.body.appendChild(downloadLink);
+        
+        // Trigger the click event
+        downloadLink.click();
+        
+        // Remove the anchor element
+        document.body.removeChild(downloadLink);
+    });
+</script>
+
+<!--SCRIPT FOR POPUP CONTACT WINDOW-->
+
