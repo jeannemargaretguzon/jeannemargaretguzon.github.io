@@ -71,3 +71,15 @@ header{
     box-shadow: rgba(80, 120, 160);
     background-color: white;
 }
+
+.bg-home {
+    background-image: url("/media/cloud.svg");
+    background-position: right;
+    background-color: var(--body-color); /* Adjust the color values as needed */
+}
+
+/*ABOUT*/
+
+.card{
+    height: 120px !important;
+}
