@@ -4,6 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="/cs/style.css">
+<script src="/js/main.js"></script>
 <title>jmguzon</title>
 
 <!--LINKS-->
@@ -13,11 +14,13 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 </html>
 
 <header>
     <div class="container d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <a href="contact.html" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+        <a href="contact.html"
+            class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
             <h1 class="fs-4 text-white pe-5 pe-lg-0"><b>jmguzon.</b></h1>
         </a>
 
@@ -31,47 +34,121 @@
 </header>
 
 <div class="container px-4 py-5 pt-0">
-    
-    
-    <div>
-        <p><i class="bi bi-wrench-adjustable pe-2"></i><b>MY SKILLS</b></p>
-        <h2>What can I do</h2>
-    
+    <div class="container">
+        <p class="mb-0 pb-2" style="color: var(--bs-primary-color);"><i class="bi bi-person-fill pe-2"></i><b>about</b>
+        </p>
+
+        <div class="row pb-2">
+            <div class="col-2 p-2">
+                <img src="/media/Profile.svg" class="d-block img-fluid w-100 mb-3 mb-md-0" style="max-width: 150px;"
+                    alt="Profile Image">
+            </div>
+
+            <div class="col-10 text-start pt-1 pl-0">
+                <h1 style="color: var(--bs-second-color);"> Jeanne Margaret Guzon</h1>
+                <p>Aspiring UI/UX and Graphics Designer | BSIT Undergraduate | Proficient in HTML, CSS, Figma| Eager to
+                    apply theoretical knowledge in a practical setting to contribute to meaningful projects and gain
+                    hands-on experience.</p>
+                <button id="download-resume" class="btn btn-download-resume btn-primary rounded-1 px-3">
+                    <i class="bi bi-file-earmark-arrow-down-fill pe-2"></i>View my resume
+                </button>
+            </div>
+        </div>
+    </div>
+
+    </br>
+    <h5 class="text-center pt-0 pt-lg-3 pb-lg-4 pb-3" style="font-family:Georgia, 'Times New Roman', Times, serif">
+        <i>“I'm usually fascinated about how
+            things function and pay close attention to the details.”</i></h5>
+    </br>
+
+    <!--SKILLS-->
+    <div class="container">
+        <p class="mb-0" style="color: var(--bs-primary-color);"><i
+                class="bi bi-wrench-adjustable pe-2"></i><b>skills</b></p>
+
+        <div class="row text-center">
+            <div class="col-md-3 themed-grid-col g-3">
+                <div class="d-flex align-items-center justify-content-center g-3 card rounded-2 skill">
+                    <h5><b>UI/UX Design</b></h5>
+                    <p>User Research, Wireframing, Prototyping</p>
+                </div>
+            </div>
+            <div class="col-md-3 themed-grid-col g-3">
+                <div class="d-flex align-items-center justify-content-center g-3 card rounded-2 skill">
+                    <h5><b>Graphic Designing</b></h5>
+                    <p>Adobe Photoshop, Figma, Canva</p>
+                </div>
+            </div>
+            <div class="col-md-3 themed-grid-col g-3">
+                <div class="d-flex align-items-center justify-content-center g-3 card rounded-2 skill">
+                    <h5><b>Web Development</b></h5>
+                    <p>HTML, CSS, Javascript, Bootstrap, ASP.NET (C#), Wordpress</p>
+                </div>
+            </div>
+            <div class="col-md-3 themed-grid-col g-3">
+                <div class="d-flex align-items-center justify-content-center g-3 card rounded-2 skill">
+                    <h5><b>Programming Languages</b></h5>
+                    <p>Python, SQL</p>
+                </div>
+            </div>
+        </div>
         <div class="row mb-3 text-center">
-            <div class="col-sm-4 themed-grid-col g-3">
-                <div class="g-3 p-3 rounded-2 skill">
-                    <h1>UI/UX Design</h1>
+            <div class="col-md-3 themed-grid-col g-3">
+                <div class="d-flex align-items-center justify-content-center g-3 card rounded-2 skill">
+                    <h5><b>Data Analysis & Visualization</b></h5>
+                    <p>Excel, Google Sheets, Power BI, Tableau</p>
+                </div>
+            </div>
+            <div class="col-md-3 themed-grid-col g-3">
+                <div class="d-flex align-items-center justify-content-center g-3 card rounded-2 skill">
+                    <h5><b>Database Management</b></h5>
                     <p>User Research, Wireframing, Prototyping</p>
                 </div>
             </div>
-            <div class="col-sm-4 themed-grid-col g-3">
-                <div class="g-3 p-3 rounded-2 skill">
-                    <h1>UI/UX Design</h1>
-                    <p>User Research, Wireframing, Prototyping</p>
+            <div class="col-md-3 themed-grid-col g-3">
+                <div class="d-flex align-items-center justify-content-center g-3 card rounded-2 skill">
+                    <h5><b>Microsoft Office Suite</b></h5>
+                    <p>Word, Powerpoint, Outlook</p>
                 </div>
             </div>
-            <div class="col-sm-4 themed-grid-col g-3">
-                <div class="g-3 p-3 rounded-2 skill">
-                    <h1>UI/UX Design</h1>
-                    <p>User Research, Wireframing, Prototyping</p>
+            <div class="col-md-3 themed-grid-col g-3">
+                <div class="d-flex align-items-center justify-content-center g-3 card rounded-2 skill">
+                    <h5><b>Version Control</b></h5>
+                    <p>Git & Github</p>
                 </div>
             </div>
-            <div class="col-sm-4 themed-grid-col g-3">
-                <div class="g-3 p-3 rounded-2 skill">
-                    <h1>UI/UX Design</h1>
-                    <p>User Research, Wireframing, Prototyping</p>
+        </div>
+    </div>
+
+    </br>
+
+    <!--EDUCATION-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="mb-0" style="color: var(--bs-primary-color);"><i
+                        class="bi bi-mortarboard-fill pe-2"></i><b>education</b></p>
+                <div class="pt-3">
+                    <h6><b>Bachelor of Science on Information Technology</b></h6>
+                    <p>Polytechnic University of the Philippines
+                        2020-2024</p>
+                </div>
+                <div class="pt-3">
+                    <h6><b>Science, Technology, Engineering and Mathematics</b></h6>
+                    <p>Polytechnic University of the Philippines
+                        2019-2020</p>
                 </div>
             </div>
-            <div class="col-sm-4 themed-grid-col g-3">
-                <div class="g-3 p-3 rounded-2 skill">
-                    <h1>UI/UX Design</h1>
-                    <p>User Research, Wireframing, Prototyping</p>
-                </div>
-            </div>
-            <div class="col-sm-4 themed-grid-col g-3">
-                <div class="g-3 p-3 rounded-2 skill">
-                    <h1>UI/UX Design</h1>
-                    <p>User Research, Wireframing, Prototyping</p>
+
+            <div class="col-md-6">
+                <p class="mb-0" style="color: var(--bs-primary-color);"><i class="bi bi-chat-fill 
+                    pe-2"></i><b>languages</b></p>
+                <div class="pt-3">
+                    <ul class="text-start">
+                        <li>English</li>
+                        <li>Filipino</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -81,11 +158,6 @@
 <div class="container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
-            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                <svg class="bi" width="30" height="24">
-                    <use xlink:href="#bootstrap"></use>
-                </svg>
-            </a>
             <span class="mb-3 mb-md-0 text-body-secondary">© jmguzon</span>
         </div>
 

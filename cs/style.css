@@ -75,11 +75,25 @@ header{
 .bg-home {
     background-image: url("/media/cloud.svg");
     background-position: right;
-    background-color: var(--body-color); /* Adjust the color values as needed */
+    background-color: var(--body-color);
 }
 
 /*ABOUT*/
 
 .card{
-    height: 150 !important;
+    height: 150px !important;
+}
+
+i{
+    color: var(--bs-primary-color);
+}
+
+.bi-file-earmark-arrow-down-fill{
+    color:var(--body-color);
+}
+
+ul{
+    list-style-type: none;
+    margin: none;
+    padding: none;
 }
