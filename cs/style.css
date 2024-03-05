@@ -6,13 +6,13 @@
 /* Your CSS rules go here */
 
 :root{
-    --bs-primary-color: #40A2E3;
-    --bs-primary-color-rgb: rgba(64,162,227);
+    --bs-primary-color: #084298;
+    --bs-primary-color-rgb: rgba(8,66,152);
     --bs-second-color: #0d6efd;
     --bs-second-color-rgb: rgba(13,110,253);
     
     --text-color:#02000D;   
-    --body-color:#F5F5F5;
+    --body-color:#d7e7ff;
 }
 
 * {
@@ -33,7 +33,7 @@ body{
 
 h1, h2, h3, h4{
     font-family: "Space Mono", monospace;
-    color: var(--bs-primary-color) !important;
+    color: var(--bs-second-color) !important;
 }
 
 h1, h2{
